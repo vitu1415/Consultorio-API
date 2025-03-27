@@ -1,6 +1,6 @@
-package consultorio.apimed.paciente;
+package consultorio.apimed.domain.paciente;
 
-import consultorio.apimed.endereco.Endereco;
+import consultorio.apimed.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

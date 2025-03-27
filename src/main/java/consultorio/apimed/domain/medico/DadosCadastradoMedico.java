@@ -1,6 +1,6 @@
-package consultorio.apimed.medico;
+package consultorio.apimed.domain.medico;
 
-import consultorio.apimed.endereco.DadosEndereco;
+import consultorio.apimed.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

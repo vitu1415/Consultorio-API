@@ -1,4 +1,4 @@
-package consultorio.apimed.endereco;
+package consultorio.apimed.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

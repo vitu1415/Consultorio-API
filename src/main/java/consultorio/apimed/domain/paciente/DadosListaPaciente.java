@@ -1,4 +1,4 @@
-package consultorio.apimed.paciente;
+package consultorio.apimed.domain.paciente;
 
 public record DadosListaPaciente(Long id, String nome, String email) {
 

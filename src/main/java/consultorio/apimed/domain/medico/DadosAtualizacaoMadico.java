@@ -1,6 +1,6 @@
-package consultorio.apimed.medico;
+package consultorio.apimed.domain.medico;
 
-import consultorio.apimed.endereco.DadosEndereco;
+import consultorio.apimed.domain.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacaoMadico(

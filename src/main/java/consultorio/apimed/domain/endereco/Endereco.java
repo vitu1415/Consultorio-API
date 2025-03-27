@@ -1,4 +1,4 @@
-package consultorio.apimed.endereco;
+package consultorio.apimed.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;

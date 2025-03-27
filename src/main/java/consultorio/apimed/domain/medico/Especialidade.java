@@ -1,4 +1,4 @@
-package consultorio.apimed.medico;
+package consultorio.apimed.domain.medico;
 
 public enum Especialidade {
 

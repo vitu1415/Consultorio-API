@@ -1,4 +1,4 @@
-package consultorio.apimed.paciente;
+package consultorio.apimed.domain.paciente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
