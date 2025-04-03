@@ -2,6 +2,7 @@ package consultorio.apimed.domain.consulta;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import consultorio.apimed.domain.medico.Especialidade;
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.NotNull;
 
@@ -17,5 +18,7 @@ public record DadosAgendamentoConsulta(
         @NotNull
         @Future
         @JsonFormat(pattern = "dd/MM/yyyy HH:mm")
-        LocalDateTime data) {
+        LocalDateTime data,
+
+        Especialidade especialidade) {
 }
