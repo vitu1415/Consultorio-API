@@ -4,11 +4,13 @@ import consultorio.apimed.domain.ValidacaoException;
 import consultorio.apimed.domain.consulta.DadosAgendamentoConsulta;
 import consultorio.apimed.domain.medico.MedicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-public class ValidadorMedicoAtivo {
+@Component
+public class ValidadorMedicoAtivo implements ValidadoragendamentoDeConsulta{
 
     @Autowired
-    MedicoRepository medicoRepository;
+    private MedicoRepository medicoRepository;
 
     public void validar(DadosAgendamentoConsulta dados){
         if(dados.idMedico() == null){

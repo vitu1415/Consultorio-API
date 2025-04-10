@@ -2,11 +2,13 @@ package consultorio.apimed.domain.consulta.validacoes;
 
 import consultorio.apimed.domain.ValidacaoException;
 import consultorio.apimed.domain.consulta.DadosAgendamentoConsulta;
+import org.springframework.stereotype.Component;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 
-public class ValidadedoHorarioAntecedencia {
+@Component
+public class ValidadedoHorarioAntecedencia implements ValidadoragendamentoDeConsulta{
 
     public void validar(DadosAgendamentoConsulta dados){
         var dataConsulta = dados.data();
