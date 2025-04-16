@@ -5,14 +5,13 @@ import consultorio.apimed.domain.consulta.validacoes.ValidadoragendamentoDeConsu
 import consultorio.apimed.domain.medico.Medico;
 import consultorio.apimed.domain.medico.MedicoRepository;
 import consultorio.apimed.domain.paciente.PacienteRepository;
-import org.hibernate.boot.archive.scan.spi.PackageInfoArchiveEntryHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class AgendamentoDeConsultas {
+public class AgendaDeConsultas {
 
     @Autowired
     private ConsultaRepository consultaRepository;

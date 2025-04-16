@@ -32,7 +32,7 @@ public class Medico {
 
     private Boolean ativo;
 
-    public Medico(DadosCadastradoMedico dados) {
+    public Medico(DadosCadastroMedico dados) {
         this.ativo = true;
         this.nome = dados.nome();
         this.email = dados.email();

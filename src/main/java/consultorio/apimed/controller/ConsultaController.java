@@ -1,8 +1,7 @@
 package consultorio.apimed.controller;
 
-import consultorio.apimed.domain.consulta.AgendamentoDeConsultas;
+import consultorio.apimed.domain.consulta.AgendaDeConsultas;
 import consultorio.apimed.domain.consulta.DadosAgendamentoConsulta;
-import consultorio.apimed.domain.consulta.DadosDetalhamentoConsulta;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
@@ -19,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsultaController {
 
     @Autowired
-    private AgendamentoDeConsultas agenda;
+    private AgendaDeConsultas agenda;
 
     @PostMapping
     @Transactional
